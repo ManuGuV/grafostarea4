@@ -19,7 +19,7 @@ using namespace std::chrono;
 
 int main(int argc, char* argv[]) {
 
-	PUNGraph g = TSnap::LoadEdgeList<PUNGraph>("wiki.txt", 0, 1);
+	PUNGraph g = TSnap::LoadEdgeList<PUNGraph>("migrafo.txt", 0, 1);
 
 	high_resolution_clock::time_point t1 = high_resolution_clock::now();
 	GraphML(g);
